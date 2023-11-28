@@ -1,0 +1,21 @@
+1.Funcionalidad (5 puntos)
+
+Juego funcional (1,5 puntos): 1.5
+Movimientos válidos y manejo de errores (1,5 puntos): 1.5
+Finalización de la partida (0,25 puntos): 0.25
+Reinicio del juego (0,25 puntos): 0.25
+Visualización del tablero (1 punto): 0.5
+Estadísticas (0,5 puntos): 0.5
+
+Total Funcionalidad: 4.5
+
+2.Código, estructura y comentarios (4 puntos)
+
+Variables globales (0,5 puntos): 0.5 
+Funciones estáticas obligatorias (1,5 puntos): 1.5
+Estructura del código (1 punto): 1
+Array unidimensional de enteros (1.0 puntos): 1
+
+Total Código, estructura y comentarios : 3.5
+
+Total Global: 8.5

@@ -1,0 +1,148 @@
+1. Jugar una partida
+2. Mostrar estadísticas
+3. Salir
+Seleccione una opción: 1
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 1
+-------------
+| X |   |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador O): 2
+-------------
+| X | O |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 3
+-------------
+| X | O | X |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador O): 4
+-------------
+| X | O | X |
+-------------
+| O |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 5
+-------------
+| X | O | X |
+-------------
+| O | X |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador O): 6
+-------------
+| X | O | X |
+-------------
+| O | X | O |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 7
+-------------
+| X | O | X |
+-------------
+| O | X | O |
+-------------
+| X |   |   |
+-------------
+Ha Ganado el Jugador X!
+1. Jugar una partida
+2. Mostrar estadísticas
+3. Salir
+Seleccione una opción: 2
+Estadísticas:
+Partidas ganadas por Jugador 1: 1
+Partidas ganadas por Jugador 2: 0
+1. Jugar una partida
+2. Mostrar estadísticas
+3. Salir
+Seleccione una opción: 1
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 1
+-------------
+| X |   |   |
+-------------
+|   |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador O): 4
+-------------
+| X |   |   |
+-------------
+| O |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 2
+-------------
+| X | X |   |
+-------------
+| O |   |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador O): 5
+-------------
+| X | X |   |
+-------------
+| O | O |   |
+-------------
+|   |   |   |
+-------------
+Introduzca movimiento (Jugador X): 7
+-------------
+| X | X |   |
+-------------
+| O | O |   |
+-------------
+| X |   |   |
+-------------
+Introduzca movimiento (Jugador O): 6
+-------------
+| X | X |   |
+-------------
+| O | O | O |
+-------------
+| X |   |   |
+-------------
+Ha Ganado el Jugador O!
+1. Jugar una partida
+2. Mostrar estadísticas
+3. Salir
+Seleccione una opción: 2
+Estadísticas:
+Partidas ganadas por Jugador 1: 1
+Partidas ganadas por Jugador 2: 1
+Han empatado. 
+1. Jugar una partida
+2. Mostrar estadísticas
+3. Salir
+Seleccione una opción: 3
+¡Hasta luego!

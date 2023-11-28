@@ -1,0 +1,162 @@
+/**
+ * 
+ */
+package programacion;
+
+/**
+ * @author valentin
+ *
+ */
+public class EstructuraDatos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		double [] nums = new double [5];
+		
+		double suma = sumarElementos(nums);
+		System.out.println(suma);
+		
+		double resta = restarElementos(nums);
+		System.out.println(resta);
+		
+		double mult = multiplicarElementos(nums);
+		System.out.println(mult);
+		
+		double div = dividirElementos(nums);
+		System.out.println(div);
+	}
+		
+		
+		//Hacer una función principal que lea 5 números por teclado y pruebe los siguiente métodos (no es necesario un menú):
+			/**
+			 * Calcula la suma de todos los elementos en un array.
+			 * @param array El array de números.
+			 * @return La suma de los elementos.
+			 */
+			public static double sumarElementos(double[] nums) {
+			double suma=0;
+			
+			for (double i=0; i<nums.length; i++ ) {
+				
+				suma=suma+nums[i];
+			}
+			return suma;
+				
+		}
+			
+			
+			
+
+			/**
+			 * Calcula la resta de todos los elementos en un array.
+			 * @param array El array de números.
+			 * @return La resta de los elementos.
+			 */
+			public static double restarElementos(double[] nums) {
+				double resta=0;
+				
+				for (double i=0; i<nums.length; i++ ) {
+					
+					resta=resta-nums[i];
+				}
+				return resta;
+					
+			}
+
+			/**
+			 * Calcula la multiplicación de todos los elementos en un array.
+			 * @param array El array de números.
+			 * @return La multiplicación de los elementos.
+			 */
+			public static double multiplicarElementos(double[] nums) {
+				double mult=1;
+				
+				for (double i=0; i<nums.length; i++ ) {
+					
+					mult=mult*nums[i];
+				}
+				return mult;
+			}
+			
+
+			/**
+			 * Calcula la división de todos los elementos en un array.
+			 * @param array El array de números.
+			 * @return La división de los elementos.
+			 */
+			
+			public static double dividirElementos(double[] nums) {
+				double div=1;
+				
+				for (double i=0; i<nums.length; i++ ) {
+					
+					div=div/nums[i];
+				}
+				return div;
+			}
+
+			/**
+			 * Calcula el promedio de todos los elementos en un array.
+			 * @param array El array de números.
+			 * @return El promedio de los elementos.
+			 */
+			public static double calcularPromedio(double[] array) {
+				double media= 0;
+				media=sumarElementos(array)/array.length;
+				return media;
+			}
+
+			/**
+			 * Encuentra el valor máximo en un array.
+			 * @param array El array de números.
+			 * @return El valor máximo en el array.
+			 */
+			public double encontrarMaximo(double[] array);
+			
+			
+
+			/**
+			 * Encuentra el valor mínimo en un array.
+			 * @param array El array de números.
+			 * @return El valor mínimo en el array.
+			 */
+			public double encontrarMinimo(double[] array);
+
+			/**
+			 * Calcula la suma acumulada de los elementos en un array.
+			 * @param array El array de números.
+			 * @return Un nuevo array con la suma acumulada de los elementos.
+			 */
+			public double[] sumaAcumulada(double[] array);
+
+			/**
+			 * Invierte el orden de los elementos en un array.
+			 * @param array El array de números.
+			 * @return Un nuevo array con el orden invertido de los elementos.
+			 */
+			public static double[] invertirArray(double[] array) {
+				double[] arrayInv=new double[array.length];
+				int j= array.length-1;
+				for (int i=0; i<array.legth; i++) {
+					//arrayInv[i]=array[array.length-1];
+					arrayInv[i]=array[j];
+					j--;
+				}
+				return arrayInv;
+			}
+			
+			
+
+			/**
+			 * Verifica si un número específico está presente en el array.
+			 * @param array El array de números.
+			 * @param numero El número a buscar.
+			 * @return true si el número está presente, false en caso contrario.
+			 */
+			public  boolean buscarNumero(double[] array, double numero);
+
+	
+
+}
